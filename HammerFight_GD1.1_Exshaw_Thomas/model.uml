@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_sAMjME9sEeuUqZTOGZe3hw" name="NewModel">
+  <packagedElement xmi:type="uml:Class" xmi:id="_FarjkFpwEeurPabeA5DBRg" name="PlayerShip" visibility="public">
+    <ownedComment xmi:id="_YLoH0Fp1EeurPabeA5DBRg" annotatedElement="_FarjkFpwEeurPabeA5DBRg">
+      <body>https://github.com/ivancea/HammerFight/blob/master/ships/PlayerShip.h</body>
+    </ownedComment>
+    <ownedAttribute xmi:id="_hMlu0FpxEeurPabeA5DBRg" name="sendEvent" visibility="public">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_hMlu0VpxEeurPabeA5DBRg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_hMlu0lpxEeurPabeA5DBRg" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_j3B70FpxEeurPabeA5DBRg" name="draw" visibility="public">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_j3Ci4FpxEeurPabeA5DBRg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_j3Ci4VpxEeurPabeA5DBRg" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_l3W00FpxEeurPabeA5DBRg" name="getPlayerShip" visibility="public">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_l3W00VpxEeurPabeA5DBRg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_l3W00lpxEeurPabeA5DBRg" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_jQx-sFpyEeurPabeA5DBRg" name="getPlayerShip" visibility="public">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jQx-sVpyEeurPabeA5DBRg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jQylwFpyEeurPabeA5DBRg" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_IDG-YFpwEeurPabeA5DBRg" name="EnemyShip" visibility="public">
+    <ownedComment xmi:id="_a-788Fp1EeurPabeA5DBRg" annotatedElement="_IDG-YFpwEeurPabeA5DBRg">
+      <body>https://github.com/ivancea/HammerFight/blob/master/ships/EnemyShip.h</body>
+    </ownedComment>
+    <ownedAttribute xmi:id="_WetP0FpxEeurPabeA5DBRg" name="sendEvent" visibility="public">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WetP0VpxEeurPabeA5DBRg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Wet24FpxEeurPabeA5DBRg" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_ZFym0FpxEeurPabeA5DBRg" name="draw" visibility="public">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ZFzN4FpxEeurPabeA5DBRg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZFzN4VpxEeurPabeA5DBRg" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_bboc0FpxEeurPabeA5DBRg" name="update" visibility="public">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_bboc0VpxEeurPabeA5DBRg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_bbpD4FpxEeurPabeA5DBRg" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_3cii0FpxEeurPabeA5DBRg" name="Ship" visibility="public">
+    <ownedComment xmi:id="_f2-C4Fp1EeurPabeA5DBRg" annotatedElement="_3cii0FpxEeurPabeA5DBRg">
+      <body>https://github.com/ivancea/HammerFight/blob/master/Ship.h</body>
+    </ownedComment>
+    <ownedAttribute xmi:id="_8xkt0FpxEeurPabeA5DBRg" name="getLife" visibility="public">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8xkt0VpxEeurPabeA5DBRg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8xkt0lpxEeurPabeA5DBRg" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_UdDrsFpyEeurPabeA5DBRg" name="setLife" visibility="public">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_UdESwFpyEeurPabeA5DBRg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UdESwVpyEeurPabeA5DBRg" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_XE0_MFpyEeurPabeA5DBRg" name="getRadius" visibility="public">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_XE0_MVpyEeurPabeA5DBRg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XE0_MlpyEeurPabeA5DBRg" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_YuCYsFpyEeurPabeA5DBRg" name="setRadius" visibility="public">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_YuCYsVpyEeurPabeA5DBRg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YuCYslpyEeurPabeA5DBRg" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_aRIjIFpyEeurPabeA5DBRg" name="sendEvent" visibility="public">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aRJKMFpyEeurPabeA5DBRg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aRJKMVpyEeurPabeA5DBRg" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_btwSIFpyEeurPabeA5DBRg" name="draw" visibility="public">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_btw5MFpyEeurPabeA5DBRg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_btw5MVpyEeurPabeA5DBRg" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_dOV7IFpyEeurPabeA5DBRg" name="update" visibility="public">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_dOWiMFpyEeurPabeA5DBRg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dOWiMVpyEeurPabeA5DBRg" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_e-fqIFpyEeurPabeA5DBRg" name="addVelocity" visibility="public">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_e-fqIVpyEeurPabeA5DBRg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_e-fqIlpyEeurPabeA5DBRg" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_r-sxEFpyEeurPabeA5DBRg" name="Entity" visibility="public">
+    <ownedComment xmi:id="_sUi94Fp1EeurPabeA5DBRg" annotatedElement="_r-sxEFpyEeurPabeA5DBRg">
+      <body>https://github.com/ivancea/HammerFight/blob/master/Entity.h</body>
+    </ownedComment>
+    <ownedAttribute xmi:id="_uCIocFpyEeurPabeA5DBRg" name="Entity" visibility="public">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_uCJPgFpyEeurPabeA5DBRg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_uCJPgVpyEeurPabeA5DBRg" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_32ooYFpyEeurPabeA5DBRg" name="Game" visibility="public">
+    <ownedComment xmi:id="_uZml4Fp1EeurPabeA5DBRg" annotatedElement="_32ooYFpyEeurPabeA5DBRg">
+      <body>https://github.com/ivancea/HammerFight/blob/master/Game.h</body>
+    </ownedComment>
+    <ownedAttribute xmi:id="_Q9mFwFpzEeurPabeA5DBRg" name="sendEvent" visibility="public">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Q9ms0FpzEeurPabeA5DBRg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Q9ms0VpzEeurPabeA5DBRg" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_S49mQFpzEeurPabeA5DBRg" name="draw" visibility="public">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_S49mQVpzEeurPabeA5DBRg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_S49mQlpzEeurPabeA5DBRg" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_Up9CwFpzEeurPabeA5DBRg" name="update" visibility="public">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Up9CwVpzEeurPabeA5DBRg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Up9CwlpzEeurPabeA5DBRg" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_BNbRQFp2EeurPabeA5DBRg" name="Class6" visibility="public"/>
+</uml:Model>
